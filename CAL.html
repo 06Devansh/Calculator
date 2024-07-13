@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="CAL.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BASIC CALCULATOR</h1>
+        <div class="calculator">
+            <div class="screen">
+                <input type="text" id="screen" name="screen"/>
+            </div>
+            
+            <table>
+                
+                <tr>
+                    <td><button id="firstrow" class="operator">CLR</button></td>
+                    <td><button id="firstrow" class="operator">DLT</button></td>
+                    <td><button id="firstrow" class="operator">.</button></td>
+                    <td><button id="firstrow" class="operator">/</button></td>
+                </tr>
+               
+                <tr>
+                    <td><button id="secondrow" class="button">1</button></td>
+                    <td><button id="secondrow">2</button></td>
+                    <td><button id="secondrow">3</button></td>
+                    <td><button id="secondrow" class="operator">*</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="thirdrow">4 </button></td>
+                    <td><button id="thirdrow">5</button></td>
+                    <td><button id="thirdrow">6</button></td>
+                    <td><button id="thirdrow" class="operator">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="fourthrow">7</button></td>
+                    <td><button id="fourthrow">8</button></td>
+                    <td><button id="fourthrow">9</button></td>
+                    <td><button id="fourthrow" class="operator">-</button></td>
+                </tr>
+
+                <tr class="fifthrow">
+                    <td><button >00</button></td>
+                    <td><button >0</button></td>
+                    <th colspan="2"><button class=" equal operator">=</button></th>
+                </tr>
+            
+            </table>       
+        </div>
+    </div>
+    <script src="CAL.js"></script>
+</body>
+</html>
